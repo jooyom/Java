@@ -26,7 +26,7 @@ boolean isTure = true;
         System.out.println(arr[0]);
 
  String name = "berserker";
-        String name2 = new( "berserker"); //이렇게 해도 같다.
+        String name2 = new String("berserker"); //이렇게 해도 같다.
         String[] arr3 = {"d", "d", "e"};
         String[] arr4 = new String[3];
 
