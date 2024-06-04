@@ -1,48 +1,44 @@
-/*
-import javax.naming.PartialResultException;
-import java.util.Arrays;
-import java.util.stream.IntStream;
 
 public class Jun4 {
     public static void main(String[] args) {
         int i = 1;
-        while(i<=5){
+        while (i <= 5) {
             System.out.println("현재 i의 값은 = " + i);
             i++;
 
-        int count = 10;
-        while (count >= 0) {
-            System.out.println("b의 값은" + count);
-            count--;
-        }
-        System.out.println("카운트 종료");
-
-
-        int n = 1, sum = 0;
-        while (n <= 100) {
-            sum += n;
-            n++;  // sum += n ++; 이런식으로 작성도 가능
-        }
-        System.out.println(sum);
-
-        int[] arr = {5, 2, 9, 1, 7, 4, 6, 3, 8};
-        int num = 0, sum2 = 0;
-        while (num < arr.length){
-            sum2 += arr[num];
-            num++;
-        }
-        System.out.println( sum2 / arr.length);
-
-        int i = 1;
-        while(i<=300){
-            if (i%3==0) {
-                System.out.println(i);
+            int count = 10;
+            while (count >= 0) {
+                System.out.println("b의 값은" + count);
+                count--;
             }
-            i++;
+            System.out.println("카운트 종료");
 
-        }
 
-        int[] numbers = {10, 5, 8, 20, 3, 15, 9, 2};
+            int n = 1, sum = 0;
+            while (n <= 100) {
+                sum += n;
+                n++;  // sum += n ++; 이런식으로 작성도 가능
+            }
+            System.out.println(sum);
+
+            int[] arr = {5, 2, 9, 1, 7, 4, 6, 3, 8};
+            int num = 0, sum2 = 0;
+            while (num < arr.length) {
+                sum2 += arr[num];
+                num++;
+            }
+            System.out.println(sum2 / arr.length);
+
+           /* int i = 1;
+            while (i <= 300) {
+                if (i % 3 == 0) {
+                    System.out.println(i);
+                }
+                i++;
+
+            }*/
+
+        /*int[] numbers = {10, 5, 8, 20, 3, 15, 9, 2};
         int a = 0, max = 0;
         while (a < numbers.length){
             if (max < numbers[a]){
@@ -152,10 +148,10 @@ public class Jun4 {
                 System.out.println("num1"+"X"+"num2"+"=mul");
             }
         }
+*/
 
-
+        }
     }
 }
 
 
-*/

@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Re {
     public static void main(String[] args) {
-      /*  int a = 10; //시작은 10
+  int a = 10; //시작은 10
         while (a >= 0){
             System.out.println(a);
             a--;
@@ -89,7 +89,8 @@ public class Re {
         int u = 2;
         for (int o = 1; o <=9; o++){
             System.out.println(u + "X" + o + "=" + u*o);
-        }*/
+        }
+
 
         for (int p = 1; p <=10; p++){
             if (p==4 || p==7){
@@ -99,13 +100,13 @@ public class Re {
         }
 
         int[] scores = {1, 30, 20, 80, 15, 20, 30, 22};
-        int sum = 0;
+        int sums = 0;
         int avg = 0;
         for (int f :scores) {
-            sum +=f;
-            avg = sum / scores.length;
+            sums +=f;
+            avg = sums / scores.length;
         }
-        System.out.println(sum);
+        System.out.println(sums);
         System.out.println(avg);
 
 
@@ -114,6 +115,8 @@ public class Re {
             if (g.length() >=5){
                 System.out.println(g);
             }
+
+
         }
 
 
